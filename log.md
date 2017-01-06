@@ -11,3 +11,11 @@ in NodeJS. Previously I was using [HTMLCanvasElement.toDataURL()](https://develo
 to save drawings as a data URI and saving those to MongoDB.
 
 **Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
+
+### Day 1: Thursday, January 6, 2017
+
+**Today's Progress:** Setup Mocha and Supertest in backend and added a test to test `drawings/new` route.
+
+**Thoughts:** Still need to add error handling to routes.
+
+**Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
