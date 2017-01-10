@@ -36,9 +36,7 @@ to make a low FODMAP food type ahead search app.
 **Thoughts:** I want to make this a progressive web app and maybe have it work
 offline.
 
-**Link to demo:** [Is it high FODMAP? Demo](http://fodmapper.surge.sh/)
-
-**Link to repo:** [Is it high FODMAP? Git repository](https://github.com/kme211/low-fodmapper)
+**Link to repo:** [Is it high FODMAP? Git repository](https://github.com/kme211/fodmapr)
 
 ### Day 5: Monday, January 9, 2017
 
@@ -51,4 +49,15 @@ for it but I'm not in love with it.
 **Thoughts:** When using a service-worker it won't work if you try to use in a 
 subdirectory. I used gulp-connect to serve the files with `app` as the root.
 
-**Link to repo:** [fodmapper Git repository](https://github.com/kme211/fodmapper)
+**Link to repo:** [fodmapper Git repository](https://github.com/kme211/fodmapr)
+
+### Day 6: Tuesday, January 10, 2017
+
+**Today's Progress:** Secured fodmapr on Netlify so that the service-worker would work. 
+Updated the homepage layout a little it. Troubleshot problems with livereload 
+(it was the service worker's fault).
+
+**Thoughts:** I probably want to start using a CSS pre-processor soon.
+
+**Link to demo:** [fodmapper progressive web app](https://fodmapr.net/)
+**Link to repo:** [fodmapper Git repository](https://github.com/kme211/fodmapr)
