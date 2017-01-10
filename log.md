@@ -41,7 +41,7 @@ offline.
 ### Day 5: Monday, January 9, 2017
 
 **Today's Progress:** Used [sw-precache](https://github.com/GoogleChrome/sw-precache)
-to add offline capability to my fodmapper app. I also attempted to deploy to 
+to add offline capability to my fodmapr app. I also attempted to deploy to 
 [Netlify](https://www.netlify.com) because service workers will only work on a 
 secure site and Surge's SSL doesn't seem to be working. I also created an icon 
 for it but I'm not in love with it.
@@ -49,7 +49,7 @@ for it but I'm not in love with it.
 **Thoughts:** When using a service-worker it won't work if you try to use in a 
 subdirectory. I used gulp-connect to serve the files with `app` as the root.
 
-**Link to repo:** [fodmapper Git repository](https://github.com/kme211/fodmapr)
+**Link to repo:** [fodmapr Git repository](https://github.com/kme211/fodmapr)
 
 ### Day 6: Tuesday, January 10, 2017
 
@@ -59,5 +59,6 @@ Updated the homepage layout a little it. Troubleshot problems with livereload
 
 **Thoughts:** I probably want to start using a CSS pre-processor soon.
 
-**Link to demo:** [fodmapper progressive web app](https://fodmapr.net/)
-**Link to repo:** [fodmapper Git repository](https://github.com/kme211/fodmapr)
+**Link to demo:** [fodmapr progressive web app](https://fodmapr.net/)
+
+**Link to repo:** [fodmapr Git repository](https://github.com/kme211/fodmapr)
