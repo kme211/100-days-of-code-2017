@@ -41,20 +41,20 @@ offline.
 ### Day 5: Monday, January 9, 2017
 
 **Today's Progress:** Used [sw-precache](https://github.com/GoogleChrome/sw-precache)
-to add offline capability to my fodmapr app. I also attempted to deploy to 
-[Netlify](https://www.netlify.com) because service workers will only work on a 
-secure site and Surge's SSL doesn't seem to be working. I also created an icon 
+to add offline capability to my fodmapr app. I also attempted to deploy to
+[Netlify](https://www.netlify.com) because service workers will only work on a
+secure site and Surge's SSL doesn't seem to be working. I also created an icon
 for it but I'm not in love with it.
 
-**Thoughts:** When using a service-worker it won't work if you try to use in a 
+**Thoughts:** When using a service-worker it won't work if you try to use in a
 subdirectory. I used gulp-connect to serve the files with `app` as the root.
 
 **Link to repo:** [fodmapr Git repository](https://github.com/kme211/fodmapr)
 
 ### Day 6: Tuesday, January 10, 2017
 
-**Today's Progress:** Secured fodmapr on Netlify so that the service-worker would work. 
-Updated the homepage layout a little it. Troubleshot problems with livereload 
+**Today's Progress:** Secured fodmapr on Netlify so that the service-worker would work.
+Updated the homepage layout a little it. Troubleshot problems with livereload
 (it was the service worker's fault).
 
 **Thoughts:** I probably want to start using a CSS pre-processor soon.
@@ -62,3 +62,17 @@ Updated the homepage layout a little it. Troubleshot problems with livereload
 **Link to demo:** [fodmapr progressive web app](https://fodmapr.net/)
 
 **Link to repo:** [fodmapr Git repository](https://github.com/kme211/fodmapr)
+
+### Day 7: Wednesday, January 11, 2017
+
+**Today's Progress:** Created a Grid component in my exquisite-corpse drawing app
+so that users will be able to specify how many sections will be in the completed
+drawing. Attempted to figure out Canvas scaling solution for different sized
+devices.
+
+**Thoughts:** I need to figure out how to scale the drawings to be 500x500 (or
+  whatever I decide) before saving them as an image (using [HTMLCanvasElement.toDataURL()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement/toDataURL) since I decided binary wasn't the way to go) since users will be on
+  different sized devices. I think when the drawing has all the completed sections
+  that I should use some sort of job queue ([monq](https://www.npmjs.com/package/monq))
+  to piece the sections together, save the completed drawing, delete the
+  sections and then email the contributors.
