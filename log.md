@@ -76,3 +76,41 @@ devices.
   that I should use some sort of job queue ([monq](https://www.npmjs.com/package/monq))
   to piece the sections together, save the completed drawing, delete the
   sections and then email the contributors.
+  
+### Day 8: Thursday, January 12, 2017
+  
+**Today's Progress:** Created a `Saved` component to let the user choose which 
+section to pass on to the next person. 
+  
+**Thoughts:** I experienced a lot of issues which this one. I think the `Grid` 
+component is getting kind of complex and I should start trying to keep util type 
+of functions outside of components and write tests for them.
+
+**Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
+
+### Day 9: Friday, January 13, 2017
+  
+**Today's Progress:** Installed Jest and wrote a few tests. Very easy to get 
+setup with. I also included an object in my `package.json` file so that Jest knows 
+to look for stuff in the `src` directory. I haven't tested to make sure it works 
+yet though.
+
+```
+"jest": {
+    "moduleDirectories": [
+      "src",
+      "node_modules"
+    ]
+  }
+``` 
+  
+I also spent some time fixing the `Saved` component and styling it. It needs to 
+be renamed though. 
+
+**Thoughts:** I should probably make it so that when a user hits a section URL, 
+the backend is pinged so that the section can be marked as "claimed". I'm just 
+imagining people posting URLs to Twitter... You don't want multiple people working 
+on the same section and then some user(s) not being able to save because it was 
+already saved by someone else. 
+    
+**Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
