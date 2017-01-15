@@ -130,3 +130,16 @@ complete. I also want to notify users by email when drawings are complete.
 can probably re-use the welcome form component.
 
 **Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
+
+### Day 11: Sunday, January 15, 2017
+
+**Today's Progress:** I managed to make a backend job to piece together the
+drawing sections and save them to disk when all the sections have been completed.
+I still need it to delete the `canvasData` in mongo and let the user know
+that the drawing is complete by email or sockets.io or both. I used this [repo](https://github.com/northernv/mastering-mean/blob/video-8-2/backend/worker.js)
+as a guide to creating the job using [monq](https://www.npmjs.com/package/monq).
+
+**Thoughts:** I want to upload the images to [cloudinary](https://www.npmjs.com/package/cloudinary) instead of keeping them
+on my backend server.
+
+**Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
