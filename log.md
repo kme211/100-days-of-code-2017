@@ -143,3 +143,13 @@ as a guide to creating the job using [monq](https://www.npmjs.com/package/monq).
 on my backend server.
 
 **Link to repo:** [Exquisite Corpse (collaborative drawing app)](https://github.com/kme211/exquisite-corpse)
+
+### Day 12: Monday, January 16, 2017
+
+**Today's Progress:** Did my first #dailycssimages challenge and made some minor 
+enhancements to [fodmapr](https://github.com/kme211/fodmapr/pull/3). 
+
+**Thoughts:** I need to get the fodmapr livereload thing working. I thought I had 
+it working but still seems to have trouble. 
+
+**Link to demo:** [CSS Zombie](http://codepen.io/kme211/pen/dNpEYG)
