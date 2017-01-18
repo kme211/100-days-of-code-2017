@@ -153,3 +153,23 @@ enhancements to [fodmapr](https://github.com/kme211/fodmapr/pull/3).
 it working but still seems to have trouble. 
 
 **Link to demo:** [CSS Zombie](http://codepen.io/kme211/pen/dNpEYG)
+
+### Day 13: Tuesday, January 17, 2017
+
+**Today's Progress:** Added functionality to save user drawings to localStorage 
+and then show them on the home page.
+
+### Day 14: Wednesday, January 18, 2017
+
+**Today's Progress:** Added cloudinary so that the `process-drawing` job 
+workflow is now like this:
+
+- Resize and piece together sections of drawings
+- Save drawing to Node server
+- Upload drawing to cloudinary
+- Remove drawing from Node server
+- Update drawing data in MongoDB
+  - Remove image data from `canvasData`
+  - Add URL for cloudinary image
+  
+I also now show the completed images on the home page.
