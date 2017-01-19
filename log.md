@@ -173,3 +173,11 @@ workflow is now like this:
   - Add URL for cloudinary image
   
 I also now show the completed images on the home page.
+
+### Day 15: Thursday, January 19, 2017
+
+**Today's Progress:** Fixed backend tests. Added Morgan logger to backend. Started 
+changing how I deal with `canvasData`. It's getting harder to just work on this project
+(exquisite-corpse) for just an hour. The problems I'm facing need a lot more attention 
+and time than I have during my lunch hour so I might have to start working on 
+smaller projects during the week and work on exquisite-corpse on the weekends.
