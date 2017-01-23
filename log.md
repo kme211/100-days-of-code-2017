@@ -146,22 +146,22 @@ on my backend server.
 
 ### Day 12: Monday, January 16, 2017
 
-**Today's Progress:** Did my first #dailycssimages challenge and made some minor 
-enhancements to [fodmapr](https://github.com/kme211/fodmapr/pull/3). 
+**Today's Progress:** Did my first #dailycssimages challenge and made some minor
+enhancements to [fodmapr](https://github.com/kme211/fodmapr/pull/3).
 
-**Thoughts:** I need to get the fodmapr livereload thing working. I thought I had 
-it working but still seems to have trouble. 
+**Thoughts:** I need to get the fodmapr livereload thing working. I thought I had
+it working but still seems to have trouble.
 
 **Link to demo:** [CSS Zombie](http://codepen.io/kme211/pen/dNpEYG)
 
 ### Day 13: Tuesday, January 17, 2017
 
-**Today's Progress:** Added functionality to save user drawings to localStorage 
+**Today's Progress:** Added functionality to save user drawings to localStorage
 and then show them on the home page.
 
 ### Day 14: Wednesday, January 18, 2017
 
-**Today's Progress:** Added cloudinary so that the `process-drawing` job 
+**Today's Progress:** Added cloudinary so that the `process-drawing` job
 workflow is now like this:
 
 - Resize and piece together sections of drawings
@@ -171,13 +171,21 @@ workflow is now like this:
 - Update drawing data in MongoDB
   - Remove image data from `canvasData`
   - Add URL for cloudinary image
-  
+
 I also now show the completed images on the home page.
 
 ### Day 15: Thursday, January 19, 2017
 
-**Today's Progress:** Fixed backend tests. Added Morgan logger to backend. Started 
+**Today's Progress:** Fixed backend tests. Added Morgan logger to backend. Started
 changing how I deal with `canvasData`. It's getting harder to just work on this project
-(exquisite-corpse) for just an hour. The problems I'm facing need a lot more attention 
-and time than I have during my lunch hour so I might have to start working on 
+(exquisite-corpse) for just an hour. The problems I'm facing need a lot more attention
+and time than I have during my lunch hour so I might have to start working on
 smaller projects during the week and work on exquisite-corpse on the weekends.
+
+### Day 16: Sunday, January 22, 2017
+
+**Today's Progress:** Missed two days for no real good reason, however I did get
+a lot of cleaning done around the house. I did manage to partially get [Auth0](https://auth0.com/)
+setup today. I used a lot of code from this [tutorial](https://medium.com/javascript-scene/passwordless-authentication-with-react-and-auth0-c4cb003c7cde#.k80zo7bgy). I need to set up the callback URL, I believe. I first tried using [Passwordless](https://github.com/florianheinemann/passwordless)
+but the [example](https://github.com/billstron/passwordless-stateless-angular) code was confusing because it didn't look like it was meant for
+production but I could be wrong.
