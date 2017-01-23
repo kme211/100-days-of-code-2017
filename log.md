@@ -189,3 +189,18 @@ a lot of cleaning done around the house. I did manage to partially get [Auth0](h
 setup today. I used a lot of code from this [tutorial](https://medium.com/javascript-scene/passwordless-authentication-with-react-and-auth0-c4cb003c7cde#.k80zo7bgy). I need to set up the callback URL, I believe. I first tried using [Passwordless](https://github.com/florianheinemann/passwordless)
 but the [example](https://github.com/billstron/passwordless-stateless-angular) code was confusing because it didn't look like it was meant for
 production but I could be wrong.
+
+### Day 17: Monday, January 23, 2017
+
+**Today's Progress:** Instead of working on authentication today, I figured I 
+should try to fix all the bugs in my current code so I can get a build on 
+Netlify (frontent)/Heroku (backend). I have the borders working now. They will 
+need further testing though.
+
+**Thoughts:** I'm wondering if I should have the images overlap like I used to 
+have them. I'm worried that users will draw inside the borders but not go all
+the way to the edge and then the pieced together drawing won't look seamless. I 
+think I removed it because I thought it was getting in the way, meaning that if 
+you drew over it, it sometimes tried to drag the image. I should try to figure 
+out if I can grab the canvas data from just the edges (25px) and then insert that 
+data into the other section.
