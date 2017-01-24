@@ -204,3 +204,29 @@ think I removed it because I thought it was getting in the way, meaning that if
 you drew over it, it sometimes tried to drag the image. I should try to figure 
 out if I can grab the canvas data from just the edges (25px) and then insert that 
 data into the other section.
+
+### Day 18: Tuesday, January 24, 2017
+
+**Today's Progress:** I resisted the temptation to work on Exquisite Corpse today 
+and worked on creating a weather app using React. I'm trying to learn how to 
+utilize [React Motion](https://github.com/chenglou/react-motion) 
+and this [codepen by Sarah Drasner](http://codepen.io/sdras/pen/ZWeJem?editors=1010) was really helpful. I still need to create a toggle or some way to change the temperature 
+scale. I think it would also be cool to have some CSS images in the background. 
+It would be a good opportunity to work on that skill. 
+
+**Link to demo:** [Weather App](http://codepen.io/kme211/pen/zNoave)
+
+**Thoughts:** Here are some of my thoughts regarding my Exquisite Corse app.
+
+- Do I want to have a `Section` schema?
+- If I do want to make a `Section` schema...
+  - What all is in the schema? 
+    - `_id`
+    - contributor
+    - image data
+    - partial image data from the bordering sections? or would the server get those 
+    parts when it recieves a request for the section?
+- What's the best way to store/find the user's drawings (ones they have contributed to)?
+  - Do I store user data such as `drawings` in MongoDB? If so, how would I do that while
+  using Auth0?
+  - Or do I add `contributors` to the `Drawing` schema
