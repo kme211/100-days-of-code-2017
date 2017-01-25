@@ -230,3 +230,10 @@ It would be a good opportunity to work on that skill.
   - Do I store user data such as `drawings` in MongoDB? If so, how would I do that while
   using Auth0?
   - Or do I add `contributors` to the `Drawing` schema
+  
+### Day 19: Wednesday, January 25, 2017
+  
+**Today's Progress:** I worked a little on my [React weather app](http://codepen.io/kme211/pen/zNoave) 
+and made a CSS [elephant](http://codepen.io/kme211/pen/vgJMRZ) for #dailycssimages. 
+I even added a little trunk swinging action. I don't have much experience with animation in CSS 
+so it's good to get some practice.
