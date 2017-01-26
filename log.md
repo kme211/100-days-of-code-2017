@@ -237,3 +237,17 @@ It would be a good opportunity to work on that skill.
 and made a CSS [elephant](http://codepen.io/kme211/pen/vgJMRZ) for #dailycssimages. 
 I even added a little trunk swinging action. I don't have much experience with animation in CSS 
 so it's good to get some practice.
+
+### Day 20: Thursday, January 26, 2017
+
+**Today's Progress:** I wanted to add some particle effects to my weather app so 
+I found a repo called [react-snowfetti](https://github.com/danillouz/react-snowfetti) 
+I could have just dropped into my project but I thought it would be 
+fun to write my own React component using react-snowfetti as a guide. It turned out 
+pretty nice and I really didn't have to write all that much code. Mine isn't advanced 
+as react-snowfetti but it does the job. Right now it just does snow but I want to 
+add rain to it and maybe the rain can have different levels of intensity depending 
+on the [weather code](http://openweathermap.com/weather-conditions) that's 
+received from the [OpenWeatherMap API](http://openweathermap.com/current). 
+
+**Link to demo:** [Snow particles](http://codepen.io/kme211/pen/XpeqjG)
