@@ -251,3 +251,10 @@ on the [weather code](http://openweathermap.com/weather-conditions) that's
 received from the [OpenWeatherMap API](http://openweathermap.com/current). 
 
 **Link to demo:** [Snow particles](http://codepen.io/kme211/pen/XpeqjG)
+
+### Day 21: Friday, January 27, 2017
+
+**Today's Progress:** I worked on making the rain in my [`Particles`](http://codepen.io/kme211/pen/XpeqjG) component look 
+more realistic. I still have a lot to learn about the Canvas API. It's not as easy 
+as making shapes/images in CSS. I also managed to incorporate the `Particles` 
+component into my [weather app](http://codepen.io/kme211/pen/zNoave). 
