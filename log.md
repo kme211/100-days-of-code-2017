@@ -192,27 +192,27 @@ production but I could be wrong.
 
 ### Day 17: Monday, January 23, 2017
 
-**Today's Progress:** Instead of working on authentication today, I figured I 
-should try to fix all the bugs in my current code so I can get a build on 
-Netlify (frontent)/Heroku (backend). I have the borders working now. They will 
+**Today's Progress:** Instead of working on authentication today, I figured I
+should try to fix all the bugs in my current code so I can get a build on
+Netlify (frontent)/Heroku (backend). I have the borders working now. They will
 need further testing though.
 
-**Thoughts:** I'm wondering if I should have the images overlap like I used to 
+**Thoughts:** I'm wondering if I should have the images overlap like I used to
 have them. I'm worried that users will draw inside the borders but not go all
-the way to the edge and then the pieced together drawing won't look seamless. I 
-think I removed it because I thought it was getting in the way, meaning that if 
-you drew over it, it sometimes tried to drag the image. I should try to figure 
-out if I can grab the canvas data from just the edges (25px) and then insert that 
+the way to the edge and then the pieced together drawing won't look seamless. I
+think I removed it because I thought it was getting in the way, meaning that if
+you drew over it, it sometimes tried to drag the image. I should try to figure
+out if I can grab the canvas data from just the edges (25px) and then insert that
 data into the other section.
 
 ### Day 18: Tuesday, January 24, 2017
 
-**Today's Progress:** I resisted the temptation to work on Exquisite Corpse today 
-and worked on creating a weather app using React. I'm trying to learn how to 
-utilize [React Motion](https://github.com/chenglou/react-motion) 
-and this [codepen by Sarah Drasner](http://codepen.io/sdras/pen/ZWeJem?editors=1010) was really helpful. I still need to create a toggle or some way to change the temperature 
-scale. I think it would also be cool to have some CSS images in the background. 
-It would be a good opportunity to work on that skill. 
+**Today's Progress:** I resisted the temptation to work on Exquisite Corpse today
+and worked on creating a weather app using React. I'm trying to learn how to
+utilize [React Motion](https://github.com/chenglou/react-motion)
+and this [codepen by Sarah Drasner](http://codepen.io/sdras/pen/ZWeJem?editors=1010) was really helpful. I still need to create a toggle or some way to change the temperature
+scale. I think it would also be cool to have some CSS images in the background.
+It would be a good opportunity to work on that skill.
 
 **Link to demo:** [Weather App](http://codepen.io/kme211/pen/zNoave)
 
@@ -220,41 +220,56 @@ It would be a good opportunity to work on that skill.
 
 - Do I want to have a `Section` schema?
 - If I do want to make a `Section` schema...
-  - What all is in the schema? 
+  - What all is in the schema?
     - `_id`
     - contributor
     - image data
-    - partial image data from the bordering sections? or would the server get those 
+    - partial image data from the bordering sections? or would the server get those
     parts when it recieves a request for the section?
 - What's the best way to store/find the user's drawings (ones they have contributed to)?
   - Do I store user data such as `drawings` in MongoDB? If so, how would I do that while
   using Auth0?
   - Or do I add `contributors` to the `Drawing` schema
-  
+
 ### Day 19: Wednesday, January 25, 2017
-  
-**Today's Progress:** I worked a little on my [React weather app](http://codepen.io/kme211/pen/zNoave) 
-and made a CSS [elephant](http://codepen.io/kme211/pen/vgJMRZ) for #dailycssimages. 
-I even added a little trunk swinging action. I don't have much experience with animation in CSS 
+
+**Today's Progress:** I worked a little on my [React weather app](http://codepen.io/kme211/pen/zNoave)
+and made a CSS [elephant](http://codepen.io/kme211/pen/vgJMRZ) for #dailycssimages.
+I even added a little trunk swinging action. I don't have much experience with animation in CSS
 so it's good to get some practice.
 
 ### Day 20: Thursday, January 26, 2017
 
-**Today's Progress:** I wanted to add some particle effects to my weather app so 
-I found a repo called [react-snowfetti](https://github.com/danillouz/react-snowfetti) 
-I could have just dropped into my project but I thought it would be 
-fun to write my own React component using react-snowfetti as a guide. It turned out 
-pretty nice and I really didn't have to write all that much code. Mine isn't advanced 
-as react-snowfetti but it does the job. Right now it just does snow but I want to 
-add rain to it and maybe the rain can have different levels of intensity depending 
-on the [weather code](http://openweathermap.com/weather-conditions) that's 
-received from the [OpenWeatherMap API](http://openweathermap.com/current). 
+**Today's Progress:** I wanted to add some particle effects to my weather app so
+I found a repo called [react-snowfetti](https://github.com/danillouz/react-snowfetti)
+I could have just dropped into my project but I thought it would be
+fun to write my own React component using react-snowfetti as a guide. It turned out
+pretty nice and I really didn't have to write all that much code. Mine isn't advanced
+as react-snowfetti but it does the job. Right now it just does snow but I want to
+add rain to it and maybe the rain can have different levels of intensity depending
+on the [weather code](http://openweathermap.com/weather-conditions) that's
+received from the [OpenWeatherMap API](http://openweathermap.com/current).
 
 **Link to demo:** [Snow particles](http://codepen.io/kme211/pen/XpeqjG)
 
 ### Day 21: Friday, January 27, 2017
 
-**Today's Progress:** I worked on making the rain in my [`Particles`](http://codepen.io/kme211/pen/XpeqjG) component look 
-more realistic. I still have a lot to learn about the Canvas API. It's not as easy 
-as making shapes/images in CSS. I also managed to incorporate the `Particles` 
-component into my [weather app](http://codepen.io/kme211/pen/zNoave). 
+**Today's Progress:** I worked on making the rain in my [`Particles`](http://codepen.io/kme211/pen/XpeqjG) component look
+more realistic. I still have a lot to learn about the Canvas API. It's not as easy
+as making shapes/images in CSS. I also managed to incorporate the `Particles`
+component into my [weather app](http://codepen.io/kme211/pen/zNoave).
+
+### Day 22: Saturday, January 28, 2017
+
+**Today's Progress:**  Worked on my exquisite-corpse app but didn't really make
+a lot of progress. I really think I should have planned it better. I feel like
+I'm writing terrible code.
+
+### Day 23: Sunday, January 29, 2017
+
+**Today's Progress:** Continued to work on my exquisite-corpse app. Got the `get`
+and `save` methods working on the backend for `sections`. Feeling slightly better about
+it today than yesterday. Sometimes I feel like I get caught up in "Yes, that would
+work but is it the most efficient way?" I honestly have no idea what the most efficient
+way is when dealing with databases. Maybe I'm stressing out about a really tiny
+performance impact. 
