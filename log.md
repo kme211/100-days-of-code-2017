@@ -273,3 +273,26 @@ it today than yesterday. Sometimes I feel like I get caught up in "Yes, that wou
 work but is it the most efficient way?" I honestly have no idea what the most efficient
 way is when dealing with databases. Maybe I'm stressing out about a really tiny
 performance impact. 
+
+### Day 24: Monday, January 30, 2017
+
+**Today's Progress:**  Changed my `Particles` component name to `Sky` and added 
+some animated stars as part of the `clear` prop type. I also integrated it into my weather app. It took a while to convert some code that someone else wrote to something that would 
+work for my use case. 
+
+I had to initalize the star particles with the usual `radius`, `opacity`, `x`, and
+ `y` but then I also had to add a `degreeX` and `degreeY`. Then in the function 
+ that draws the stars each animation frame, I had to do this: 
+ ```
+  particle.degreeX += 0.025 * speed
+  particle.degreeY += 0.025 * speed
+  const xcenter = width/2
+  const ycenter = height + 5
+  const radian = (particle.degreeX/180) * Math.PI // Radian of the night sky
+  particle.x = xcenter + Math.cos(radian) * particle.radian
+  particle.y = ycenter + Math.sin(radian) * particle.radian
+```
+
+There do however seem to be more stars clustered at the bottom center than anywhere else.
+
+**Link to demo:** [Sky component](http://codepen.io/kme211/pen/XpeqjG)
