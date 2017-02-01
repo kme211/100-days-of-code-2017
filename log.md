@@ -296,3 +296,15 @@ I had to initalize the star particles with the usual `radius`, `opacity`, `x`, a
 There do however seem to be more stars clustered at the bottom center than anywhere else.
 
 **Link to demo:** [Sky component](http://codepen.io/kme211/pen/XpeqjG)
+
+### Day 25: Wednesday, February 1, 2017
+
+**Today's Progress:** Did the HTML5 Video player tutorial on Javascript 30 and learned 
+how to make a custom video player using CSS and vanilla JS. I also created a sun 
+animation for my `Sky` component and added it to weather app. 
+
+Weather conditions I may still want to animate: 
+- thunderstorm
+- drizzle
+
+**Link to demo:** [Sky component](http://codepen.io/kme211/pen/XpeqjG)
