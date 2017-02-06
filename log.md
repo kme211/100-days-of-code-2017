@@ -308,3 +308,28 @@ Weather conditions I may still want to animate:
 - drizzle
 
 **Link to demo:** [Sky component](http://codepen.io/kme211/pen/XpeqjG)
+
+### Day 26: Thursday, February 2, 2017
+
+**Today's Progress:** Started reading [Making Games](http://www.allitebooks.com/making-games/) 
+to learn how to make a platform game using [PixiJS](http://www.pixijs.com/). 
+Instead of copying and pasting the code, I wrote out each line in a 
+[Codepen pen](http://codepen.io/kme211/pen/jyzJgO). 
+
+### Day 27: Friday, February 3, 2017
+
+**Today's Progress:** Continued going through Making Games book. 
+
+### Day 28: Sunday, February 5, 2017
+
+**Today's Progress:** Continued going through Making Games book and completed 
+the day 3 #dailycssimages challenge--beaver.
+
+**Link to demo:** [Beaver](https://t.co/yx4O3Nuccm)
+
+### Day 29: Monday, February 6, 2017
+
+**Today's Progress:** Started making a portfolio page. I am using [this portfolio page](http://heuze.co.uk/) 
+as inspiration. Still needs work but it's roughly there and styled.
+
+**Link to demo:** [Portfolio](http://codepen.io/kme211/full/ZLjpJG/)
