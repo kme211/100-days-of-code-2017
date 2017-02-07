@@ -333,3 +333,12 @@ the day 3 #dailycssimages challenge--beaver.
 as inspiration. Still needs work but it's roughly there and styled.
 
 **Link to demo:** [Portfolio](http://codepen.io/kme211/full/ZLjpJG/)
+
+### Day 30: Tuesday, February 7, 2017
+
+**Today's Progress:** Continued to work on building my portfolio. I decided it was time 
+to start working on it outside of Codepen because I want to be able to build 
+the portfolio (or Work) section dynamically--that way it's easier to make changes. 
+I got node-sass working and now I need to get [Nunjuks](https://mozilla.github.io/nunjucks/) working. 
+
+**Link to repo:** [Portfolio](https://github.com/kme211/static-portfolio)
