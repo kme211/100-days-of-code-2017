@@ -342,3 +342,12 @@ the portfolio (or Work) section dynamically--that way it's easier to make change
 I got node-sass working and now I need to get [Nunjuks](https://mozilla.github.io/nunjucks/) working. 
 
 **Link to repo:** [Portfolio](https://github.com/kme211/static-portfolio)
+
+### Day 31: Wednesday, February 15, 2017
+
+**Today's Progress:** I worked on tweaking the CSS for my Simon Game (part of FCC 
+  curriculum). I used that handy [clip path maker](http://bennettfeely.com/clippy/) 
+  to make pie slice shapes for the buttons. 
+  
+  **Link to demo:** [Pie slices](http://codepen.io/kme211/pen/ggEQVZ)
+  **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
