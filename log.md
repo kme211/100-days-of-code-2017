@@ -351,3 +351,11 @@ I got node-sass working and now I need to get [Nunjuks](https://mozilla.github.i
   
   **Link to demo:** [Pie slices](http://codepen.io/kme211/pen/ggEQVZ)
   **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
+
+### Day 32: Thursday, February 16, 2017
+
+**Today's progress:** I added functionality for what happens when you press the 
+wrong button in my Simon Game. I also changed my start button. Still need to add 
+some sort of "Yay!" animation for when user makes it to 20 (count).
+
+  **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
