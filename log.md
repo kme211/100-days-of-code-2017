@@ -358,4 +358,15 @@ I got node-sass working and now I need to get [Nunjuks](https://mozilla.github.i
 wrong button in my Simon Game. I also changed my start button. Still need to add 
 some sort of "Yay!" animation for when user makes it to 20 (count).
 
-  **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
+**Link to repo** [Simon Game](https://github.com/kme211/simon-game)
+
+### Day 33: Friday, February 17, 2017
+
+**Today's progress:** I added functionality for what happens when you win (get up to 20). 
+The whole thing spins like a pinwheel. I also added a restart button. I had to make sure that 
+I cleared all the intervals that get set when the sequence is run when the restart button gets pushed.
+I'm becoming more comfortable with keyframe animations in CSS.
+
+**Link to repo** [Simon Game](https://github.com/kme211/simon-game)
+
+**Link to demo** [Simon Game hosted on Netlfiy](http://preacher-jessie-81250.netlify.com/)
