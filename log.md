@@ -370,3 +370,10 @@ I'm becoming more comfortable with keyframe animations in CSS.
 **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
 
 **Link to demo** [Simon Game hosted on Netlfiy](http://preacher-jessie-81250.netlify.com/)
+
+
+### Day 34: Saturday, February 18, 2017
+
+**Today's progress:** Worked on adding a strict mode check box to the header of my Simon game. Had some trouble with the CSS but got it sort of working. "Strict mode" label text looks like it gets nudged a pixel or two when you check the box. 
+
+**Link to repo** [Simon Game](https://github.com/kme211/simon-game)
