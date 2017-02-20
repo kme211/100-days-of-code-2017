@@ -386,3 +386,13 @@ I'm becoming more comfortable with keyframe animations in CSS.
 **Link to repo** [Simon Game](https://github.com/kme211/simon-game)
 
 **Link to demo** [Simon Game hosted on Netlfiy](http://preacher-jessie-81250.netlify.com/)
+
+### Day 36: Monday, February 20, 2017
+
+**Today's progress:** Change Simon Game counter to show how many steps are in the current series of button presses. 
+Added animation names and properties to `constants.js` to keep code more DRY. Game will now restart after the win animation.
+
+I also completed the ["No repeats please"](https://www.freecodecamp.com/challenges/no-repeats-please) challenge on FreeCodeCamp. The permutations 
+part of it was pretty confusing. I used this [stackoverflow answer](http://stackoverflow.com/questions/9960908/permutations-in-javascript#answer-20871714) to help me. 
+
+**Link to repo** [Simon Game update](https://github.com/kme211/simon-game/commit/f2faf2d9a458b585504ea54616532869790cf4ed)
