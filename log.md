@@ -396,3 +396,9 @@ I also completed the ["No repeats please"](https://www.freecodecamp.com/challeng
 part of it was pretty confusing. I used this [stackoverflow answer](http://stackoverflow.com/questions/9960908/permutations-in-javascript#answer-20871714) to help me. 
 
 **Link to repo** [Simon Game update](https://github.com/kme211/simon-game/commit/f2faf2d9a458b585504ea54616532869790cf4ed)
+
+### Day 37: Tuesday, February 21, 2017
+
+**Today's progress:** Completed day 5 of #dailycssimages: Favorite Animated Animal. I did Bender from Futurama (party animal). It's probably the most complex CSS image I've done so far and I'm pretty proud of it. `z-index` was kind of pain on this one and I should probably do some more reading on the subject.
+
+**Link to demo** [Bender](http://codepen.io/kme211/pen/bgXQgB)
