@@ -402,3 +402,10 @@ part of it was pretty confusing. I used this [stackoverflow answer](http://stack
 **Today's progress:** Completed day 5 of #dailycssimages: Favorite Animated Animal. I did Bender from Futurama (party animal). It's probably the most complex CSS image I've done so far and I'm pretty proud of it. `z-index` was kind of pain on this one and I should probably do some more reading on the subject.
 
 **Link to demo** [Bender](http://codepen.io/kme211/pen/bgXQgB)
+
+
+### Day 38: Wednesday, February 22, 2017
+
+**Today's progress:** Took yesterday's CSS image (Bender) and made him a part of new random quote generator. I need to collect more Bender quotes and randomize them. I added a blink animation and a bored-eyes animation and I want to add some more expressions for different quotes. 
+
+**Link to demo** [Bender Quotes](http://codepen.io/kme211/pen/JWPLgQ)
