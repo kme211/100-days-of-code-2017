@@ -409,3 +409,10 @@ part of it was pretty confusing. I used this [stackoverflow answer](http://stack
 **Today's progress:** Took yesterday's CSS image (Bender) and made him a part of new random quote generator. I need to collect more Bender quotes and randomize them. I added a blink animation and a bored-eyes animation and I want to add some more expressions for different quotes. 
 
 **Link to demo** [Bender Quotes](http://codepen.io/kme211/pen/JWPLgQ)
+
+
+### Day 39: Thursday, February 23, 2017
+
+**Today's progress:** Added eyelid animations to Bender Quotes. Different quotes will start different animations depending on how I think Bender's eyes should look during the quote. Added a function to shuffle the array of quotes. Added functionality to remove the antenna hint animation when there are no more quotes. I also added a header that says "Bender Quotes."
+
+**Link to demo** [Bender Quotes](http://codepen.io/kme211/pen/JWPLgQ)
