@@ -431,3 +431,8 @@ part of it was pretty confusing. I used this [stackoverflow answer](http://stack
 **Today's progress:** Finished getting Bender Quotes ready to deploy and deployed to Netlify. Worked on adding some responsiveness to my [portfolio](https://github.com/kme211/static-portfolio). I need figure out what to say in my about section. I also followed along with the Slide In on Scroll video in [Javascript30](https://javascript30.com).
 
 **Link to demo** [Bender Quotes repo](https://github.com/kme211/bender-quotes)
+
+### Day 42: Monday, February 27, 2017
+
+**Today's progress:** I worked on [adding a dev server](https://github.com/kme211/static-portfolio/commit/c8e9dce278e6840a7816cb8a634ef821410bbe87) with Express to my [static portfolio](https://github.com/kme211/static-portfolio). I switched my SCSS compiling from command line to my `build.js` script. If the environment is not production, I use [chokidar](https://www.npmjs.com/package/chokidar) to watch my SCSS files for changes and recompile the SCSS to CSS if there is a change.  
+
