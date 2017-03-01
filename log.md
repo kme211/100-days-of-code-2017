@@ -436,3 +436,11 @@ part of it was pretty confusing. I used this [stackoverflow answer](http://stack
 
 **Today's progress:** I worked on [adding a dev server](https://github.com/kme211/static-portfolio/commit/c8e9dce278e6840a7816cb8a634ef821410bbe87) with Express to my [static portfolio](https://github.com/kme211/static-portfolio). I switched my SCSS compiling from command line to my `build.js` script. If the environment is not production, I use [chokidar](https://www.npmjs.com/package/chokidar) to watch my SCSS files for changes and recompile the SCSS to CSS if there is a change.  
 
+
+### Day 43: Tuesday, February 28, 2017
+
+**Today's progress:** I also removed the `dist` directory from the Express static assets in my [portfolio](https://github.com/kme211/static-portfolio). Express was using the index in that directory instead of using Nunjucks to render the index in `src/views`. I added Express routes for the CSS and JS files.
+
+Still need to:
+- Implement yargs instead of using process.env.NODE_ENV
+- FInish changing all `Date` objects to date strings
