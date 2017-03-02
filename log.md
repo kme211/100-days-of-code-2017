@@ -444,3 +444,24 @@ part of it was pretty confusing. I used this [stackoverflow answer](http://stack
 Still need to:
 - Implement yargs instead of using process.env.NODE_ENV
 - FInish changing all `Date` objects to date strings
+
+### Day 44: Wednesday, March 1, 2017
+
+**Today's progress:** I implemented yargs and finished converting all the `Date` objects to strings. I also improved the mobile layout and added functionality to fade out projects that are less than half way shown on the screen. 
+
+**Link to repo** [Portfolio](https://github.com/kme211/static-portfolio)
+
+
+### Day 45: Thursday, March 2, 2017
+
+**Today's progress:** I decided that today I wanted to make a simple web server similar to Express (but not really as robust) for me to use when I just want a server for development purposes.
+
+So far it can... 
+- Serve static files from a directory of your choosing `app.use(app.static('public'))`
+- Render an HTML file from the views directory `app.render('index.html')` 
+
+To do: 
+- Add recursive capability to the static file middleware
+- Add functionality to pass data into templates
+
+**Link to repo** [Daphne](https://github.com/kme211/daphne)
