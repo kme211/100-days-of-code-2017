@@ -465,3 +465,11 @@ To do:
 - Add functionality to pass data into templates
 
 **Link to repo** [Daphne](https://github.com/kme211/daphne)
+
+### Day 46: Friday, March 3, 2017
+
+**Today's progress:** I worked on adding functionality to [Daphne](https://github.com/kme211/daphne) that adds a `404` 
+status code to responses for routes that don't exist. I also put the example code into its own directory which caused some issues because Daphne was being run in a different place than the example code, so the paths to the public files were wrong but that was fixed by setting a base directory when Daphne is constructed and including the example `__dirname` when setting the static directory. 
+
+To do: 
+- Instead of sending plain text when the user encounters a 404 I want to display an HTML page
