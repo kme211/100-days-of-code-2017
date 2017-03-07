@@ -473,3 +473,13 @@ status code to responses for routes that don't exist. I also put the example cod
 
 To do: 
 - Instead of sending plain text when the user encounters a 404 I want to display an HTML page
+
+### Day 47: Monday, March 6, 2017
+
+**Today's progress:**
+
+Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac13cbe9efe7e9fe0e26a4c8b76a909ccf) to static assets helper function in [Daphne](https://github.com/kme211/daphne). I also made a [CSS clock](http://codepen.io/kme211/pen/evdGLE). 
+
+### Day 48: Tuesday, March 7, 2017
+
+**Today's progress:** I made a [CSS ruler](http://codepen.io/kme211/pen/Vpmzpj?editors=1100) for #dailycssimages. It uses a lot of flex so it was pretty good flex practice.
