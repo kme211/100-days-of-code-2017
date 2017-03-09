@@ -483,3 +483,14 @@ Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac
 ### Day 48: Tuesday, March 7, 2017
 
 **Today's progress:** I made a [CSS ruler](http://codepen.io/kme211/pen/Vpmzpj?editors=1100) for #dailycssimages. It uses a lot of flex so it was pretty good flex practice.
+
+### Day 48: Wednesday, March 8, 2017
+
+**Today's progress:** Started making a tool to help with the creation of subtitle files (srt). It's going to be a desktop app built with Electron. I am using the [electron-react-boilerplate](https://github.com/chentsulin/electron-react-boilerplate). It uses Redux which I'm fairly familiar with but it also has [flow](https://flowtype.org/) which I'm not very familar with so I have to check the docs quite frequently when I want to incorporate static type checking. It's a really good boilerplate and it's a lot of fun to play around with.
+
+
+**Link to repo** [srt maker](https://github.com/kme211/srt-maker)
+
+### Day 49: Thursday, March 9, 2017
+
+**Today's progress:** Continued to work on [srt maker](https://github.com/kme211/srt-maker). I made a lot more progress today. You can add transcripts to the audio which gets split into the separate sentences (timing blocks) and then you are able to set start/end times for the blocks. I also added keyboard shortcuts. 
