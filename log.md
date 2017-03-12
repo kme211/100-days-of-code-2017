@@ -494,3 +494,13 @@ Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac
 ### Day 49: Thursday, March 9, 2017
 
 **Today's progress:** Continued to work on [srt maker](https://github.com/kme211/srt-maker). I made a lot more progress today. You can add transcripts to the audio which gets split into the separate sentences (timing blocks) and then you are able to set start/end times for the blocks. I also added keyboard shortcuts. 
+
+### Day 50: Friday, March 10, 2017
+
+**Today's progress:** Continued to work on [srt maker](https://github.com/kme211/srt-maker). Added an export button for individual files and added export functionality. The start and end times need to be adjusted so they are valid for an `srt` file. Wavesurfer gives me the position in seconds and I need the time to be in a format like this: `hh:mm:ss,mmm`.
+
+### Day 51: Sunday, March 12, 2017
+
+**Today's progress:** I made a util to convert seconds into the correct format for `srt` files. I also made small tweaks here and there and added a couple more keyboard shortcuts. `w` will now select the previous text block while `s` will select the next text block. I also added validation errors so that you can't set a start time to be after the end time, an end time to be before or the start time, or set them to be equal values. 
+
+**Link to repo** [srt maker](https://github.com/kme211/srt-maker)
