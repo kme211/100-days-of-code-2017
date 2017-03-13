@@ -504,3 +504,9 @@ Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac
 **Today's progress:** I made a util to convert seconds into the correct format for `srt` files. I also made small tweaks here and there and added a couple more keyboard shortcuts. `w` will now select the previous text block while `s` will select the next text block. I also added validation errors so that you can't set a start time to be after the end time, an end time to be before or the start time, or set them to be equal values. 
 
 **Link to repo** [srt maker](https://github.com/kme211/srt-maker)
+
+### Day 52: Monday, March 13, 2017
+
+**Today's progress:** Continued working on srt-maker. I am attempting to switch waveform libraries (from wavesurfer to peaks.js) and I ran into some trouble importing the new library. I submitted a ticket and some responded saying they were working on the issue and told me about a workaround. Currently the problem I am having is that the waveforms don't seem to quite match up with the selected audio files. Sometimes the waveform is longer than the actual audio file and vice versa. I need to try to test it with some generated tone files. I thought I fixed the issue when I changed the audio src from `this.audio.src = this.props.filePath;` to `this.audio.src = nextProps.filePath;` since I had that code in the `componentWillReceiveProps(nextProps)` lifecycle method. 
+
+**Link to repo** [srt maker](https://github.com/kme211/srt-maker)
