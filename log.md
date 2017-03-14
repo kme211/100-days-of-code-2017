@@ -510,3 +510,18 @@ Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac
 **Today's progress:** Continued working on srt-maker. I am attempting to switch waveform libraries (from wavesurfer to peaks.js) and I ran into some trouble importing the new library. I submitted a ticket and some responded saying they were working on the issue and told me about a workaround. Currently the problem I am having is that the waveforms don't seem to quite match up with the selected audio files. Sometimes the waveform is longer than the actual audio file and vice versa. I need to try to test it with some generated tone files. I thought I fixed the issue when I changed the audio src from `this.audio.src = this.props.filePath;` to `this.audio.src = nextProps.filePath;` since I had that code in the `componentWillReceiveProps(nextProps)` lifecycle method. 
 
 **Link to repo** [srt maker](https://github.com/kme211/srt-maker)
+
+### Day 53: Tuesday, March 14, 2017
+
+**Today's progress:** Fixed a couple issues with srt-maker. 
+
+**Issue 1:** Waveform was not matching the selected audio file.
+
+**Troubleshooting process and solution:** I added mp3 with generated tones so that I could tell which waveforms belonged to which audio file easily. I realized that the first waveform I clicked on was correct but that all the other waveforms were one behind. I realized that I needed to wait until the metadata was finished loading (so that peaks.js could get the new data) after changing the audio source before calling the `initPeaks` function.
+
+**Issue 2:** If waveform container width is too wide for audio clip's duration, peaks.js throws an error and won't render the waveform. 
+
+**Solution:** I added an `adjustContainer` function that calculates a `maxWidth` based on the audio duration. The duration * 93 equals the approximate max width for the peaks.js library.
+
+**Link to repo** [srt maker](https://github.com/kme211/srt-maker)
+
