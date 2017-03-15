@@ -525,3 +525,8 @@ Added [recursive functionality](https://github.com/kme211/daphne/commit/369561ac
 
 **Link to repo** [srt maker](https://github.com/kme211/srt-maker)
 
+### Day 54: Wednesday, March 15, 2017
+
+**Today's progress:** I added a loading animation to srt-maker. The waveform doesn't take very long to load for the small clips, I noticed, but I didn't want the loader to just flash so I added a setTimeout to delay the loader from leaving the screen. I experimented with the loader fading in and out but I was still seeing a flash of the waveform container being reset or something so for now it's just on or off. 
+
+**Link to repo** [srt maker](https://github.com/kme211/srt-maker)
